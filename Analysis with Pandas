@@ -1,0 +1,5 @@
+import pandas as pd
+path='/content/drive/MyDrive/'
+path=path+'' #add the additional part of the path to reach your file betwen the ''
+df=pd.read_csv(path) #read an .csv file, if yo want to read an one sheet excel change .read_excel
+print(df.shape) #show the shape of our data frame, the first line is recognized as header
